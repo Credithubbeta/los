@@ -1,4 +1,4 @@
-<!-- git sync test -->
+<!-- git sync test   -->
 <apex:page id="loginPage" showHeader="false" title="{!$Label.site.site_login}">
   <apex:composition template="{!$Site.Template}">
     <apex:define name="body">  
