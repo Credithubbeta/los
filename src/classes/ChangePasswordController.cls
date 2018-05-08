@@ -22,6 +22,7 @@ public with sharing class ChangePasswordController {
     //by rajasekhar
       public PageReference newMethod() {
         return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
+        return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
     } 
    	public ChangePasswordController() {}
 }
