@@ -1,5 +1,7 @@
 /**
  * An apex page controller that exposes the change password functionality
+   Adding new comments for code sync
+   Adding Old comments for code sync
  */
 public with sharing class ChangePasswordController {
     public String oldPassword {get; set;}
@@ -9,6 +11,17 @@ public with sharing class ChangePasswordController {
     public PageReference changePassword() {
         return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
     }     
-    
+     
+    public PageReference changePasswordNew() {
+        return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
+    } 
+	 
+    public PageReference changePasswordOld() {
+        return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
+    } 
+    //by rajasekhar
+      public PageReference newMethod() {
+        return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
+    } 
    	public ChangePasswordController() {}
 }
